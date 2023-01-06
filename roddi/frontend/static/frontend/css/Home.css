@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: white;
+  background-color: white;
+
+  text-align: center;
+  font-size: 24px;
+  line-height: 3;
+}
+.header {
+  background: #377771;
+}
+
+/* .main-div {
+  background-color: chocolate;
+} */
+footer {
+  background: #377771;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 300px;
+}
+/* .left-sidebar {
+  background: #bcac9b;
+}
+.right-sidebar {
+  background: #bcac9b;
+} */
+
+.dodsbo-komponent {
+  background: #ffffff;
+  margin-bottom: 100px;
+}
+
+.dodsbo-accordion {
+  background-color: #f1f1f1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.log-out-bar {
+  background-color: #377771;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.comment-box {
+  border: 2px solid #fab7b1;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.accordation {
+  margin: auto;
+  width: 50%;
+  align-content: center;
+  align-items: center;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comment-content {
+  border: 3px solid white;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  border-radius: 5px;
+}
+.comment-author {
+  font-size: medium;
+  color: #377771;
+  margin-right: 10px;
+}
+.estate-name {
+  /* display: block; */
+  /* text-align: center;
+  vertical-align: middle; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.font-estate-name {
+  font-size: x-large;
+  color: #377771;
+}
+.item-name {
+  font-size: large;
+
+  font-weight: 500;
+}
+
+.dodsbo-komponent {
+  padding: 20px;
+}
+
+@media all and(min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header,
+  footer {
+    width: 100%;
+  }
+  main {
+    flex: 3;
+    order: 2;
+    min-height: 100vh;
+  }
+
+  /* .left-sidebar {
+    order: 1;
+    flex: 1;
+  }
+  .right-sidebar {
+    flex: 1;
+    order: 3;
+  } */
+  .dodsbo-komponent {
+    flex: 3;
+    order: 2;
+    min-height: 60vh;
+  }
+
+  /*   .dodsbo-accordion {
+    background-color: rgb(206, 216, 216);
+  } */
+
+  .comment-box {
+    border: 2px solid white;
+    border-radius: 3px;
+  }
+
+  footer {
+    order: 4;
+  }
+}
+
+.button-header {
+  display: inline-block;
+  margin-right: 0;
+  padding-top: 20;
+}
+
+.header-text {
+  display: inline-block;
+}
